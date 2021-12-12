@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712698306540",
+    "project_id": "toko-buku-7204f",
+    "storage_bucket": "toko-buku-7204f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712698306540:android:0d86615415008ce3c4aac9",
+        "android_client_info": {
+          "package_name": "com.example.tokobuku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712698306540-np6usveiamime9qe894cvm6qmplvahil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw7skoQAsWOE0SEoKXJ9qUJ8DlVH_mck4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712698306540-np6usveiamime9qe894cvm6qmplvahil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

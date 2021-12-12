@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/layout"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_bank"
+        android:layout_width="60dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bca" />
+
+    <TextView
+        android:layout_toEndOf="@+id/img_bank"
+        android:id="@+id/bank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:text="Bank BCA"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+</RelativeLayout>
